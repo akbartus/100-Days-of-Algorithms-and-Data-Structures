@@ -35,7 +35,7 @@ function binarySearch(myArray, selectedNumber) {
                 // inside loop, we find mid point or half        
                 const midPoint = Math.floor((left + right) / 2);
                 // we check if the number we are looking for is bigger or smaller than mid point and accordingly reduce or increase mid point by one
-                // when the the item is found, it is neither bigger or smaller than mid point and therefore we return mid point                  
+                // when the the item is found, it is neither bigger or smaller than mid point and therefore we return mid point or index of the item searched for                  
                 if (selectedNumber < myArray[midPoint]) {
                     right = midPoint - 1;
                 } else if (selectedNumber > myArray[midPoint]) {
