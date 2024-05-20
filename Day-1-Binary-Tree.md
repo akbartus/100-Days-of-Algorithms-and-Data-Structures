@@ -22,7 +22,7 @@ In terms of Big O notation:
 
 <b>n</b> - number of operations.
 
-It is a very fast algorithm. See below the example implementation in JavaScript.
+It is a very fast algorithm. See below the example <b>iterative</b> implementation in JavaScript.
 
 ```js
 // Conditions: Sorted array and and item present in array
@@ -52,4 +52,8 @@ function binarySearch(myArray, selectedNumber) {
         const selectedNumber = 56;
         // Call function    
         console.log(binarySearch(my_arr, selectedNumber));
+```
+See below example <b>recursive</b> implementation:
+```js
+
 ```
