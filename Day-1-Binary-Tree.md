@@ -1,4 +1,4 @@
-<b>Binary Tree or Binary Tree search</b> is the algorithm applied in search related tasks. Its takes as input sorted array and an item and helps to identify its index (position). Basic idea behind this algorithm is the following: 
+<b>Binary Tree or Binary Tree search</b> is the algorithm applied in search related tasks. Its takes as input sorted array and an item and helps to identify its index (position). Simple example could be a telephone book, where we need to look up certain person. Basic idea behind this algorithm is the following: 
 
 1. when searching for the item in an array, rather than going one by one (linear search), we take half of the array and check if the being searched item is in one of them.
 2. We take that half and divide it again into 2 halves and check if the item is present in one of them.
