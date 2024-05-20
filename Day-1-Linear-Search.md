@@ -1,10 +1,8 @@
-<b>Linear search</b> is sequential search algorithm. It starts from first item in array and checks every item there until the desired item is found.
+<b>Linear search</b> is sequential search algorithm. It starts from first item in array and checks every item there until the desired item is found. It is usually good for search in smaller arrays, for example, consisting of 100 or less items/elements.
 
 In terms of Big O notation: 
 
-<b>O(n)</b>
-
-<b>n</b> - linear time.
+<b>O(n)</b> - linear time
 
 It is a much slower algorithm. See below the example implementation in JavaScript.
 
