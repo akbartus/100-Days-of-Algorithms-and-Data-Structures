@@ -6,7 +6,7 @@
 
 Consider the following example. To find 99th items in an array of 100 items, when using linear search we need 99 steps. 
 When doing search using binary tree, we just need 7 steps :
-Step 1. 100/2.
+<b>Step 1.</b> 100/2.
 Step 2. 50/2
 Step 3. 25/2
 Step 4. 13/2
