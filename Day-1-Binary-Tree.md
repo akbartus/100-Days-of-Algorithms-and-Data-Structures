@@ -5,14 +5,14 @@
 3. We do this until we find the item.
 
 Consider the following example. To find 99th items in an array of 100 items, when using linear search we need 99 steps. 
-When doing search using binary tree, we just need 7 steps :
-<b>Step 1.</b> 100/2.
-Step 2. 50/2
-Step 3. 25/2
-Step 4. 13/2
-Step 5. 7/2
-Step 6. 4/2
-Step 7. 2/2 and get the item being searched
+When doing search using binary tree, we just need 7 steps:<br>
+- <b>Step 1.</b> 100/2.
+- <b>Step 2.</b> 50/2
+- <b>Step 3.</b> 25/2
+- <b>Step 4.</b> 13/2
+- <b>Step 5.</b> 7/2
+- <b>Step 6.</b> 4/2
+- <b>Step 7.</b> 2/2 and get the item being searched
 
 In terms of Big O notation: 
 
