@@ -25,13 +25,17 @@ In terms of Big O notation:
 It is a very fast algorithm. 
 
 ```js
+// Conditions: Sorted array and and item present in array
 function binarySearch(myArray, selectedNumber) {
+            // We take very first element in the array and last element in the array
             let left = 0;
             let right = myArray.length - 1;
-
+            // Run the while loop 
             while (left <= right) {
+                // inside loop, we find mid point or half        
                 const midPoint = Math.floor((left + right) / 2);
-
+                // we check if the number we are looking for is bigger or smaller than mid point and accordingly reduce or increase mid point by one
+                // when the the item is found, it is neither bigger or smaller than mid point and therefore we return mid point                  
                 if (selectedNumber < myArray[midPoint]) {
                     right = midPoint - 1;
                 } else if (selectedNumber > myArray[midPoint]) {
