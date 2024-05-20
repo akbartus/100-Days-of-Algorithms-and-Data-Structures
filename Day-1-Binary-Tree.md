@@ -22,7 +22,7 @@ In terms of Big O notation:
 
 <b>n</b> - number of operations.
 
-It is a very fast algorithm. 
+It is a very fast algorithm. See below the example implementation in JavaScript.
 
 ```js
 // Conditions: Sorted array and and item present in array
@@ -33,8 +33,8 @@ function binarySearch(myArray, selectedNumber) {
             // Run the while loop 
             while (left <= right) {
                 // inside loop, we find mid point or half        
-                const midPoint = Math.floor((left + right) / 2);
-                // we check if the number we are looking for is bigger or smaller than mid point and accordingly reduce or increase mid point by one
+                const midPoint = Math.floor((left + right) / 2); // we use Math.floor to get integer value without decimals.
+                // we check if the number we are looking for is bigger or smaller than mid point and accordingly reduce or increase mid point by one and move further
                 // when the the item is found, it is neither bigger or smaller than mid point and therefore we return mid point or index of the item searched for                  
                 if (selectedNumber < myArray[midPoint]) {
                     right = midPoint - 1;
