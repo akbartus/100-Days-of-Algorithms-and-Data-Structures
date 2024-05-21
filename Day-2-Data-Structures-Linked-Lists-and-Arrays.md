@@ -10,10 +10,10 @@ Disadvatages are the following:
 - In order to get to the last item of the list, we need to read all items one by one (because each item contains address/reference to the next item), so that to get to the last item 
 
 
-In terms of Big O:
-Reading O(n). It is because we need to read each item in a linked list, which has reference to another item.
-Inserting O(1). It requires constant time. It is because it is easy to change what previous elements points to.
-Deleting O(1). It is the same. We just change what item points to
+In terms of Big O:<br>
+Reading - O(n). It is because we need to read each item in a linked list, which has reference to another item.<br>
+Inserting O(1). It requires constant time. It is because it is easy to change what previous elements points to.<br>
+Deleting O(1). It is the same. We just change what item points to<br>
 
 <b>Arrays</b> allow to store collection of items in a contiguous block of memory. They allow to have efficient access to elements using indices (index number). 
 Advantages are the following:
@@ -24,7 +24,7 @@ Disadvantages:
 - Require moving to another memory slots row if not enough slots.
 - Not efficient allocation of memory.
 
-In terms of Big O:
-Reading O(1). Because it requires only one operation.
-Inserting O(n)
+In terms of Big O:<br>
+Reading O(1). Because it requires only one operation.<br>
+Inserting O(n)<br>
 Deletion O(n)
