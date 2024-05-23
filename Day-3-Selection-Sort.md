@@ -1,5 +1,8 @@
 <b>Selection</b> sort is not very fast algorithm. Selection sort works by taking the smallest element in an unsorted array and bringing it to the front. 
-We go through each item (from left to right) until we find the smallest one. It is important to note, when smallest item gest to the beginning of array, the next item remains in its place and becomes second. Then loop starts again until all items are sorted. It is more suitable for smaller lists/arrays. 
+
+1. Go through the array to find the lowest value.
+2. Move the lowest value to the front of the unsorted part of the array. Start from next item.
+3. Go through the array again as many times as there are values in the array.
 
 In terms of Big O:
 - O(n2)
