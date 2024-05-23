@@ -9,7 +9,9 @@ Selection sort is not very fast algorithm. When smallest value is taken from arr
 In terms of Big O:
 - O(n2)
 
-Below is a exampl of selection sort (swapping version, more efficient) :
+The difference between best case and worst case scenario is in the number of swaps. In best case scenario array is already ordered. In worst case scenario we do as many swaps as there are items. 
+
+Below is a example of selection sort (swapping version, more efficient) :
 ```js
 let selectionSort = (nums) => {
       for (let i = 0; i < nums.length; i++) {
