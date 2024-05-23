@@ -41,3 +41,4 @@ let selectionSort = (nums) => {
 
     console.log(selectionSort([0, 3, 5, 2])); // [-3, 1, 3, 5, 8, 9]
 ```
+To see difference in its performance, visit this page: https://www.w3schools.com/dsa/dsa_algo_selectionsort.php 
